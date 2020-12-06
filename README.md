@@ -40,6 +40,8 @@ dependencies {
 
         });              
 ```
+## Usage 
+    ![](Painter.gif)
 
 ## License
 
