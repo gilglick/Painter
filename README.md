@@ -1,6 +1,6 @@
 # Painter
 [![](https://jitpack.io/v/gilglick/Painter.svg)](https://jitpack.io/#gilglick/Painter)
-https://img.shields.io/github/downloads/gilglick/Painter/total
+![GitHub repo size](https://img.shields.io/github/downloads/gilglick/Painter/total)
 
 
 Library for creating custom paints using custom drawer and alot of paint experience support, including bitmap export file. 
