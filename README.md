@@ -2,8 +2,8 @@
 [![](https://jitpack.io/v/gilglick/Painter.svg)](https://jitpack.io/#gilglick/Painter)
 
 
-Library for creating custom paints with drawer and alot of paint experience support. 
-Draw & Enjoy!
+Library for creating custom paints using custom drawer and alot of paint experience support, including bitmap export file. 
+Draw & Have Fun!
 
 ## Setup
 Step 1. Add it in your root build.gradle at the end of repositories:
