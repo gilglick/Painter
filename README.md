@@ -41,7 +41,7 @@ dependencies {
         });              
 ```
 ## Usage 
-    ![](Images/Painter.gif)
+![](Images/Painter.gif)
 
 
 ## License
