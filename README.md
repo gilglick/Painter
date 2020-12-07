@@ -7,32 +7,39 @@ Library for creating custom paints using custom drawer and alot of paint experie
 Draw & Have Fun!
 
 ## Setup
-Step 1. Add it in your root build.gradle at the end of repositories:
+Step 1. Add it in your root 'build.gradle' to repositories:
 ```gradle
 allprojects {
     repositories {
+         ...
         maven { url 'https://jitpack.io' }
     }
 }
 ```
 
-Step 2. Add the dependency:
+Step 2. Add dependency:
 ```gradle
 dependencies {
+    ...
     implementation 'com.github.gilglick:Painter:1.0.1'
 }
 ```
 
 
-
+Step 3. Add the drawer holder componet to your XML:
 ```java
    <com.example.drawer.DrawerHolder
       android:id="@+id/drawHolder"
       android:layout_width="match_parent"
       android:layout_height="match_parent"/>
-
+"/>
 
 ```
+
+## ScreenShots 
+![](Images/Painter.gif)
+
+## Usage
 
 ```java
 
@@ -41,8 +48,6 @@ dependencies {
 
         });              
 ```
-## Usage 
-![](Images/Painter.gif)
 
 
 ## License
