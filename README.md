@@ -1,7 +1,7 @@
 # Painter
 [![](https://jitpack.io/v/gilglick/Painter.svg)](https://jitpack.io/#gilglick/Painter)
-![GitHub repo size](https://img.shields.io/github/repo-size/gilglick/Painter)
-![GitHub Repo stars](https://img.shields.io/github/stars/gilglick/Painter?Color=%23af6b58)
+![GitHub repo size](https://img.shields.io/github/repo-size/gilglick/Painter?color=%23a15e83)
+![GitHub Repo stars](https://img.shields.io/github/stars/gilglick/Painter)
 
 Library for creating custom paints using custom drawer and alot of paint experience support, including bitmap export file. 
 Draw & Have Fun!
@@ -41,11 +41,25 @@ Step 3. Add the drawer holder componet to your XML:
 
 ## Usage
 
+###### Insert paint to an ImageView:
+
+```java
+
+        drawerHolder = findViewById(R.id.drawHolder);
+        imageView = findViewById(R.id.imageView);
+        drawerHolder.register(bitmap -> {
+            imageView.setImageBitmap(bitmap);
+
+        });              
+```
+
+###### Convert paint to Drawable object:
+
 ```java
 
         drawerHolder = findViewById(R.id.drawHolder);
         drawerHolder.register(bitmap -> {
-
+            Drawable drawable = new BitmapDrawable(getResources(),bitmap);
         });              
 ```
 
